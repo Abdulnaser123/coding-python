@@ -249,5 +249,548 @@
 # nums = [i for i in range(20) if i >= 10]
 # for num in nums:
 #     print(num)
+# United States
+# Filter by United States
 
-print("-" * 30)
+# India
+# Filter by India
+
+# United Kingdom
+# Filter by United Kingdom
+
+# Guinea
+# Filter by Guinea
+
+# Guinea-Bissau
+# Filter by Guinea-Bissau
+
+# Central African Republic
+# Filter by Central African Republic
+
+# Ethiopia
+# Filter by Ethiopia
+
+# Hungary
+# Filter by Hungary
+
+# Portugal
+# Filter by Portugal
+
+# Antarctica
+# Filter by Antarctica
+
+# Sri Lanka
+# Filter by Sri Lanka
+
+# Argentina
+# Filter by Argentina
+
+# Finland
+# Filter by Finland
+
+# Mozambique
+# Filter by Mozambique
+
+# Belgium
+# Filter by Belgium
+
+# Burkina Faso
+# Filter by Burkina Faso
+
+# Laos
+# Filter by Laos
+
+# Kenya
+# Filter by Kenya
+
+# Montenegro
+# Filter by Montenegro
+
+# Mali
+# Filter by Mali
+
+# Burundi
+# Filter by Burundi
+
+# Panama
+# Filter by Panama
+
+# Uruguay
+# Filter by Uruguay
+
+# Colombia
+# Filter by Colombia
+
+# Liechtenstein
+# Filter by Liechtenstein
+
+# Candaba
+# Filter by Candaba
+
+# Malta
+# Filter by Malta
+
+# Canada
+# Filter by Canada
+
+# Democratic Republic of the Congo
+# Filter by Democratic Republic of the Congo
+
+# Germany
+# Filter by Germany
+
+# Monaco
+# Filter by Monaco
+
+# Japan
+# Filter by Japan
+
+# Australia
+# Filter by Australia
+
+# Lithuania
+# Filter by Lithuania
+
+# Venezuela
+# Filter by Venezuela
+
+# Benin
+# Filter by Benin
+
+# Israel
+# Filter by Israel
+
+# Belarus
+# Filter by Belarus
+
+# Russia
+# Filter by Russia
+
+# Costa Rica
+# Filter by Costa Rica
+
+# Serbia
+# Filter by Serbia
+
+# Honduras
+# Filter by Honduras
+
+# Türkiye
+# Filter by Türkiye
+
+# Zambia
+# Filter by Zambia
+
+# Maldives
+# Filter by Maldives
+
+# Vanuatu
+# Filter by Vanuatu
+
+# Abkhazia, Georgia
+# Filter by Abkhazia, Georgia
+
+# Ukraine
+# Filter by Ukraine
+
+# North Korea
+# Filter by North Korea
+
+# Mongolia
+# Filter by Mongolia
+
+# Singapore
+# Filter by Singapore
+
+# Cambodia
+# Filter by Cambodia
+
+# French Polynesia
+# Filter by French Polynesia
+
+# Federated States of Micronesia
+# Filter by Federated States of Micronesia
+
+# Albania
+# Filter by Albania
+
+# Bosnia and Herzegovina
+# Filter by Bosnia and Herzegovina
+
+# Netherlands
+# Filter by Netherlands
+
+# China
+# Filter by China
+
+# Peru
+# Filter by Peru
+
+# Estonia
+# Filter by Estonia
+
+# Armenia
+# Filter by Armenia
+
+# Slovakia
+# Filter by Slovakia
+
+# Hong Kong SAR
+# Filter by Hong Kong SAR
+
+# Mexico
+# Filter by Mexico
+
+# Italy
+# Filter by Italy
+
+# North Macedonia
+# Filter by North Macedonia
+
+# Rwanda
+# Filter by Rwanda
+
+# Niger
+# Filter by Niger
+
+# Senegal
+# Filter by Senegal
+
+# Bhutan
+# Filter by Bhutan
+
+# Greenland
+# Filter by Greenland
+
+# Brunei
+# Filter by Brunei
+
+# Norway
+# Filter by Norway
+
+# Austria
+# Filter by Austria
+
+# Samoa
+# Filter by Samoa
+
+# South Africa
+# Filter by South Africa
+
+# Luxembourg
+# Filter by Luxembourg
+
+# Paraguay
+# Filter by Paraguay
+
+# Taiwan
+# Filter by Taiwan
+
+# Vietnam
+# Filter by Vietnam
+
+# Latvia
+# Filter by Latvia
+
+# Gabon
+# Filter by Gabon
+
+# Czechia
+# Filter by Czechia
+
+# Denmark
+# Filter by Denmark
+
+# Tanzania
+# Filter by Tanzania
+
+# Chile
+# Filter by Chile
+
+# Nepal
+# Filter by Nepal
+
+# Kosovo
+# Filter by Kosovo
+
+# Chad
+# Filter by Chad
+
+# Greece
+# Filter by Greece
+
+# Croatia
+# Filter by Croatia
+
+# Ireland
+# Filter by Ireland
+
+# Falkland Islands
+# Filter by Falkland Islands
+
+# French Guiana
+# Filter by French Guiana
+
+# France
+# Filter by France
+
+# Dominican Republic
+# Filter by Dominican Republic
+
+# Poland
+# Filter by Poland
+
+# Sweden
+# Filter by Sweden
+
+# Jamaica
+# Filter by Jamaica
+
+# Thailand
+# Filter by Thailand
+
+# South Korea
+# Filter by South Korea
+
+# Iceland
+# Filter by Iceland
+
+# Puerto Rico
+# Filter by Puerto Rico
+
+# Bulgaria
+# Filter by Bulgaria
+
+# Angola
+# Filter by Angola
+
+# New Zealand
+# Filter by New Zealand
+
+# Nicaragua
+# Filter by Nicaragua
+
+# Suriname
+# Filter by Suriname
+
+# New Caledonia
+# Filter by New Caledonia
+
+# Madagascar
+# Filter by Madagascar
+
+# Spain
+# Filter by Spain
+
+# Botswana
+# Filter by Botswana
+
+# San Marino
+# Filter by San Marino
+
+# Fiji
+# Filter by Fiji
+
+# Cameroon
+# Filter by Cameroon
+
+# Ghana
+# Filter by Ghana
+
+# Guyana
+# Filter by Guyana
+
+# Belize
+# Filter by Belize
+
+# Malawi
+# Filter by Malawi
+
+# Brazil
+# Filter by Brazil
+
+# The Gambia
+# Filter by The Gambia
+
+# Slovenia
+# Filter by Slovenia
+
+# Moldova
+# Filter by Moldova
+
+# Dubai, United Arab Emirates
+# Filter by Dubai, United Arab Emirates
+
+# Georgia
+# Filter by Georgia
+
+# Ecuador
+# Filter by Ecuador
+
+# Cuba
+# Filter by Cuba
+
+# Sierra Leone
+# Filter by Sierra Leone
+
+# Liberia
+# Filter by Liberia
+
+# The Bahamas
+# Filter by The Bahamas
+
+# Romania
+# Filter by Romania
+
+# Namibia
+# Filter by Namibia
+
+# Switzerland
+# Filter by Switzerland
+
+# Cyprus
+# Filter by Cyprus
+
+# Uganda
+# Filter by Uganda
+
+# Trinidad and Tobago
+# write these countries in a list
+
+countries = [
+    "Sri Lanka",
+    "Argentina",
+    "Finland",
+    "Mozambique",
+    "Belgium",
+    "Burkina Faso",
+    "Laos",
+    "Kenya",
+    "Montenegro",
+    "Mali",
+    "Burundi",
+    "Panama",
+    "Uruguay",
+    "Colombia",
+    "Liechtenstein",
+    "Candaba",
+    "Malta",
+    "Canada",
+    "Democratic Republic of the Congo",
+    "Germany",
+    "Monaco",
+    "Japan",
+    "Australia",
+    "Lithuania",
+    "Venezuela",
+    "Benin",
+    "Israel",
+    "Belarus",
+    "Russia",
+    "Costa Rica",
+    "Serbia",
+    "Honduras",
+    "Türkiye",
+    "Zambia",
+    "Maldives",
+    "Vanuatu",
+    "Abkhazia, Georgia",
+    "Ukraine",
+    "North Korea",
+    "Mongolia",
+    "Singapore",
+    "Cambodia",
+    "French Polynesia",
+    "Federated States of Micronesia",
+    "Albania",
+    "Bosnia and Herzegovina",
+    "Netherlands",
+    "China",
+    "Peru",
+    "Estonia",
+    "Armenia",
+    "Slovakia",
+    "Hong Kong SAR",
+    "Mexico",
+    "Italy",
+    "North Macedonia",
+    "Rwanda",
+    "Niger",
+    "Senegal",
+    "Bhutan",
+    "Greenland",
+    "Brunei",
+    "Norway",
+    "Austria",
+    "Samoa",
+    "South Africa",
+    "Luxembourg",
+    "Paraguay",
+    "Taiwan",
+    "Vietnam",
+    "Latvia",
+    "Gabon",
+    "Czechia",
+    "Denmark",
+    "Tanzania",
+    "Chile",
+    "Nepal",
+    "Kosovo",
+    "Chad",
+    "Greece",
+    "Croatia",
+    "Ireland",
+    "Falkland Islands",
+    "French Guiana",
+    "France",
+    "Dominican Republic",
+    "Poland",
+    "Sweden",
+    "Jamaica",
+    "Thailand",
+    "South Korea",
+    "Iceland",
+    "Puerto Rico",
+    "Bulgaria",
+    "Angola",
+    "New Zealand",
+    "Nicaragua",
+    "Suriname",
+    "New Caledonia",
+    "Madagascar",
+    "Spain",
+    "Botswana",
+    "San Marino",
+    "Fiji",
+    "Cameroon",
+    "Ghana",
+    "Guyana",
+    "Belize",
+    "Malawi",
+    "Brazil",
+    "The Gambia",
+    "Slovenia",
+    "Moldova",
+    "Dubai, United Arab Emirates",
+    "Georgia",
+    "Ecuador",
+    "Cuba",
+    "Sierra Leone",
+    "Liberia",
+    "The Bahamas",
+    "Romania",
+    "Namibia",
+    "Switzerland",
+    "Cyprus",
+    "Uganda",
+    "Trinidad and Tobago",
+    "Turkmenistan",
+    "Tajikistan",
+]
+# print countries
+
+for country in countries:
+    print(f"Filter by {country}")
+    print(f"SELECT * FROM table_name WHERE country = '{country}';")
+    print()
+    print("---")
