@@ -1,5 +1,5 @@
 name = "Abdlenaser"
-age = 25
+age = 23
 country = "palestine"
 print(
     "my is is %s and my age i'm from %s" % (name, country)
