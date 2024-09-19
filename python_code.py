@@ -807,16 +807,103 @@ import functools
 # help()
 # reverse()
 # -----------------------
-mySkills = ["html", "css", "javascript"]
-mySkillsWithCounter = enumerate(mySkills, 20)
-for counter, mySkill in mySkillsWithCounter:
-    print(f"[{counter} - {mySkill}]")
+# mySkills = ["html", "css", "javascript"]
+# mySkillsWithCounter = enumerate(mySkills, 20)
+# for counter, mySkill in mySkillsWithCounter:
+#     print(f"[{counter} - {mySkill}]")
 
-print("-" * 50)
+# print("-" * 50)
 
-str = "abdelnasser"
-str = reversed(str)
-result = ""
-for ch in str:
-    result += ch
-print(result)
+# str = "abdelnasser"
+# str = reversed(str)
+# result = ""
+# for ch in str:
+#     result += ch
+# print(result)
+
+# -----------------------
+# modules are buit-in finction in python
+# -----------------------
+# [1] module is a file contain a set of functions
+# [2] you can import module in your app to help you
+# [3] you can import multiple modules
+# [4] you can create your own modules
+# [5] modules saves your time
+# -----------------------
+
+# import main module
+# import random
+
+# print(random.random() * 100)
+# print(dir(random))
+# import one or two funcitons from module
+# from random import randint, randrange
+# print({randrange(2, 3)})
+# to fucntions in random module
+# from random import *
+# print(randbytes(19))
+
+# import sys
+
+# print(sys.path)
+
+
+# for path in sys.path:
+#     print(path)
+
+# import pyfiglet
+# from termcolor import colored
+
+# print(colored(pyfiglet.figlet_format("AHMED"), color="red"))
+
+# -----------------------
+# Date and Time => Introduction
+# -----------------------
+
+# import datetime
+
+# print(datetime.datetime.now())
+# # to print the current day
+# print(datetime.datetime.now().day)
+# # to print the current month
+# print(datetime.datetime.now().month)
+# # to print the current year
+# print(datetime.datetime.now().year)
+# # to print the current hour
+# print(datetime.datetime.now().hour)
+# # to print the current minute
+# print(datetime.datetime.now().minute)
+# # to print the current second
+# print(datetime.datetime.now().second)
+
+# name = "ahmed"
+# for ch in iter(name):
+#     print(ch, end=" ")
+
+# def myGenrator():
+#     yield 1
+#     yield 2
+#     yield 3
+
+
+# myGen = myGenrator()
+# print("----------")
+# print(next(myGen))
+# print("----------")
+# for num in myGen:
+#     print(num)
+# def decorators(fun):
+#     def wrapper():
+#         print("before function execution")
+#         fun()
+#         print("after function execution")
+
+#     return wrapper
+
+
+# @decorators
+# def hello():
+#     print("Hello, World!")
+
+
+# hello()
