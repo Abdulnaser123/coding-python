@@ -787,10 +787,36 @@ countries = [
     "Turkmenistan",
     "Tajikistan",
 ]
+import functools
+
 # print countries
 
-for country in countries:
-    print(f"Filter by {country}")
-    print(f"SELECT * FROM table_name WHERE country = '{country}';")
-    print()
-    print("---")
+# for country in countries:
+#     print(f"Filter by {country}")
+#     print(f"SELECT * FROM table_name WHERE country = '{country}';")
+#     print()
+#     print("---")
+
+# result = functools.reduce(lambda num1, num2: num1 + num2, range(1, 20))
+# print(result)
+
+# -----------------------
+# - built in function
+# -----------------------
+# enumerate()
+# help()
+# reverse()
+# -----------------------
+mySkills = ["html", "css", "javascript"]
+mySkillsWithCounter = enumerate(mySkills, 20)
+for counter, mySkill in mySkillsWithCounter:
+    print(f"[{counter} - {mySkill}]")
+
+print("-" * 50)
+
+str = "abdelnasser"
+str = reversed(str)
+result = ""
+for ch in str:
+    result += ch
+print(result)
